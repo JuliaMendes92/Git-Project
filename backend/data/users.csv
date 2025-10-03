@@ -1,0 +1,3 @@
+email,full_name,role,password_hash
+admin@example.com,Admin User,admin,$2b$12$KIXQm9L7R6Z1i6vJ9zQfEezlAqf1zK/0zQz17G1gE0CIXFQxOq1G6
+user@example.com,Normal User,user,$2b$12$wG8VH0R2VXyFq2YfQhFvI.LjH8p3m2wqzX7QeX2m9KQ1BmD3q0E6a
