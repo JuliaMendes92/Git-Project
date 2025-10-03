@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends gcc build-essen
 # Copy only requirements first for better caching
 COPY backend/requirements.txt /app/backend/requirements.txt
 RUN python -m pip install --upgrade pip
+# Install requirements (no BuildKit cache mount to ensure compatibility)
 RUN pip install -r /app/backend/requirements.txt
 
 # Copy the rest of the app
